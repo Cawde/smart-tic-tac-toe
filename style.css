@@ -1,0 +1,31 @@
+html {
+    background: rgb(9, 6, 46);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 275px);
+    grid-gap: 0px;
+    column-gap: 0px;
+    padding: 10px;
+}
+
+.grid > div {
+    background: rgb(9, 6, 46);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    padding: 120px;
+}
+
+.square {
+    border: 2px solid white;
+    box-sizing: border-box;
+    width: 275px;
+    height: 275px;
+}
